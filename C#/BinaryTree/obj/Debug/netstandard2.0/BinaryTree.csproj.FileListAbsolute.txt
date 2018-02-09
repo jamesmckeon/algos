@@ -1,0 +1,8 @@
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\bin\Debug\netstandard2.0\BinaryTree.deps.json
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\bin\Debug\netstandard2.0\BinaryTree.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\bin\Debug\netstandard2.0\BinaryTree.pdb
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\obj\Debug\netstandard2.0\BinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\obj\Debug\netstandard2.0\BinaryTree.AssemblyInfoInputs.cache
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\obj\Debug\netstandard2.0\BinaryTree.AssemblyInfo.cs
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\obj\Debug\netstandard2.0\BinaryTree.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree\obj\Debug\netstandard2.0\BinaryTree.pdb

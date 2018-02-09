@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Algos.BinaryTree;
-using NUnit.Framework;
+using Xunit;
 
 namespace Tests.BinaryTree
 {
-    [TestFixture]
+
     public class MaxSumPathTests
     {
         protected MaxSumPath Target { get; set; }
-        [SetUp]
-        public void TestSetUp()
+
+
+        public MaxSumPathTests()
         {
             Target = new MaxSumPath();
         }
 
-
-        [Test]
+        [Fact]
         public void MaxPathSum_Returns7()
         {
 
@@ -45,74 +45,74 @@ namespace Tests.BinaryTree
             root.right.right.left = new TreeNode(1);
             root.right.right.left.right = new TreeNode(1);
 
-            Assert.AreEqual(7, Target.MaxPathSum(root));
+            Assert.Equal(7, Target.MaxPathSum(root));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_Returns6()
         {
             var root = new TreeNode(1);
             root.left = new TreeNode(2);
             root.right = new TreeNode(3);
 
-            Assert.AreEqual(6, Target.MaxPathSum(root));
+            Assert.Equal(6, Target.MaxPathSum(root));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_HandlesNullRoot()
         {
-            Assert.AreEqual(0, Target.MaxPathSum(null));
+            Assert.Equal(0, Target.MaxPathSum(null));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_HandlesChildlessRoot()
         {
             var root = new TreeNode(10);
-            Assert.AreEqual(10, Target.MaxPathSum(root));
+            Assert.Equal(10, Target.MaxPathSum(root));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_Returns3()
         {
             var root = new TreeNode(1);
             root.left = new TreeNode(2);
 
 
-            Assert.AreEqual(3, Target.MaxPathSum(root));
+            Assert.Equal(3, Target.MaxPathSum(root));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_Returns4()
         {
             var root = new TreeNode(1);
             root.right = new TreeNode(3);
 
 
-            Assert.AreEqual(4, Target.MaxPathSum(root));
+            Assert.Equal(4, Target.MaxPathSum(root));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_LesserChild_ReturnsParent()
         {
             var root = new TreeNode(2);
             root.left = new TreeNode(-1);
 
 
-            Assert.AreEqual(2, Target.MaxPathSum(root));
+            Assert.Equal(2, Target.MaxPathSum(root));
         }
 
-        [Test]
+        [Fact]
         public void MaxPathSum_GreaterChild_ReturnsChild()
         {
             var root = new TreeNode(-1);
             root.left = new TreeNode(2);
 
 
-            Assert.AreEqual(2, Target.MaxPathSum(root));
+            Assert.Equal(2, Target.MaxPathSum(root));
         }
 
         //breadth first input: [9,6,-3,null,null,-6,2,null,null,2,null,-6,-6,-6]
-        [Test]
+        [Fact]
         public void MaxPathSum_Returns16()
         {
 
@@ -129,15 +129,15 @@ namespace Tests.BinaryTree
             root.right.right.left.left.left = new TreeNode(-6);
             root.right.right.left.right = new TreeNode(-6);
 
-            Assert.AreEqual(16, Target.MaxPathSum(root));
+            Assert.Equal(16, Target.MaxPathSum(root));
 
         }
 
         // "timeout exceeded" error on LeetCode: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
-        [Test]
+        [Fact]
         public void MaxPathSum_HandlesLargeInput()
         {
-          
+
             var parser = new LeetCodeParser();
             var tree = parser.Parse(Properties.Resources.MaxPathSum_LargeInput);
         }

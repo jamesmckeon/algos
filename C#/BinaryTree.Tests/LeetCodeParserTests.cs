@@ -3,22 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NUnit.Framework;
+using Xunit;
 using Algos.BinaryTree;
 namespace Tests.BinaryTree
 {
-    [TestFixture]
+
     public class LeetCodeParserTests
     {
         protected LeetCodeParser Target { get; set; }
-
-        [SetUp]
-        public void TestSetUp()
+        public LeetCodeParserTests()
         {
             Target = new LeetCodeParser();
         }
-
-        [Test]
+        [Fact]
         public void Parse_Case1_ReturnsExpected()
         {
 
@@ -36,7 +33,7 @@ namespace Tests.BinaryTree
             expected.right.left.left = null;
             expected.right.left.right = new TreeNode(8);
 
-            Assert.IsTrue(TreesEqual(expected, Target.Parse(input)));
+            Assert.True(TreesEqual(expected, Target.Parse(input)));
         }
 
         bool NodesEqual(TreeNode a, TreeNode b)
@@ -74,7 +71,7 @@ namespace Tests.BinaryTree
                 {
                     nodeB = qB.Dequeue();
 
-                    if (! NodesEqual(nodeB, nodeA))
+                    if (!NodesEqual(nodeB, nodeA))
                     {
                         return false;
                     }
@@ -85,7 +82,7 @@ namespace Tests.BinaryTree
                         qB.Enqueue(nodeB.right);
                     }
 
-                    
+
                 }
                 else
                 {
@@ -97,11 +94,11 @@ namespace Tests.BinaryTree
                     qA.Enqueue(nodeA.left);
                     qA.Enqueue(nodeA.right);
                 }
-               
+
 
             }
 
-            if(qB.Count > 0)
+            if (qB.Count > 0)
             {
                 return false;
             }
@@ -112,6 +109,6 @@ namespace Tests.BinaryTree
 
         }
 
-        
+
     }
 }
