@@ -133,13 +133,6 @@ namespace Tests.BinaryTree
 
         }
 
-        // "timeout exceeded" error on LeetCode: https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
-        [Fact]
-        public void MaxPathSum_HandlesLargeInput()
-        {
 
-            var parser = new LeetCodeParser();
-            var tree = parser.Parse(Properties.Resources.MaxPathSum_LargeInput);
-        }
     }
 }

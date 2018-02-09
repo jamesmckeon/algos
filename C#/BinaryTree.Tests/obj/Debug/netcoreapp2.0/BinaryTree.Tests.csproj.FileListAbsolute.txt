@@ -1,4 +1,15 @@
-C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\obj\Debug\netcoreapp2.0\BinaryTree.Tests.csproj.GenerateResource.Cache
 C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\obj\Debug\netcoreapp2.0\BinaryTree.Tests.csproj.CoreCompileInputs.cache
 C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\obj\Debug\netcoreapp2.0\BinaryTree.Tests.AssemblyInfoInputs.cache
 C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\obj\Debug\netcoreapp2.0\BinaryTree.Tests.AssemblyInfo.cs
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.Tests.deps.json
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.Tests.runtimeconfig.json
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.Tests.runtimeconfig.dev.json
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.Tests.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.Tests.pdb
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\bin\Debug\netcoreapp2.0\BinaryTree.pdb
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\obj\Debug\netcoreapp2.0\BinaryTree.Tests.dll
+C:\Users\jbmckeon\Documents\vs-code\algos - Copy\C#\BinaryTree.Tests\obj\Debug\netcoreapp2.0\BinaryTree.Tests.pdb
