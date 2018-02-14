@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "BinarySearchTree"
+		},
+		{
+			"path": "BinaryTree"
+		},
+		{
+			"path": "BinaryTree.Tests"
+		}
+	],
+	"settings": {}
+}

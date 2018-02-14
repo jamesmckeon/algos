@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinarySearchTree\\BinarySearchTree.csproj",
+      "projectUniqueName": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinarySearchTree\\BinarySearchTree.csproj",
       "projectName": "BinarySearchTree",
-      "projectPath": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinarySearchTree\\BinarySearchTree.csproj",
+      "projectPath": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinarySearchTree\\BinarySearchTree.csproj",
       "packagesPath": "C:\\Users\\jbmckeon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinarySearchTree\\obj\\",
+      "outputPath": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinarySearchTree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
