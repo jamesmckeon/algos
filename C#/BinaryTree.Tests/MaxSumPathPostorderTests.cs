@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Algos.BinaryTree;
 using Xunit;
 
-namespace Tests.BinaryTree
+namespace Algos.BinaryTree.Tests
 {
 
     public class MaxSumPathPostOrderTests

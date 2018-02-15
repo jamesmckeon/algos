@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree.Tests\\BinaryTree.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree.Tests\\BinaryTree.Tests.csproj",
       "projectName": "BinaryTree.Tests",
-      "projectPath": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree.Tests\\BinaryTree.Tests.csproj",
+      "projectPath": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree.Tests\\BinaryTree.Tests.csproj",
       "packagesPath": "C:\\Users\\jbmckeon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree.Tests\\obj\\",
+      "outputPath": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5758,8 +5758,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree\\BinaryTree.csproj": {
-              "projectPath": "C:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree\\BinaryTree.csproj"
+            "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree\\BinaryTree.csproj": {
+              "projectPath": "c:\\Users\\jbmckeon\\Documents\\vs-code\\algos - Copy\\C#\\BinaryTree\\BinaryTree.csproj"
             }
           }
         }

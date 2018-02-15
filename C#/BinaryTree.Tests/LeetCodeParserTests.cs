@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using Algos.BinaryTree;
-namespace Tests.BinaryTree
+namespace Algos.BinaryTree.Tests
 {
 
     public class LeetCodeParserTests
