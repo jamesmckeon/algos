@@ -32,6 +32,11 @@ namespace Algos.BinaryTree.Tests
         [InlineData(8, new int[] { 3, 5, 6, 7, 15 })]
         [InlineData(9, new int[] { 3, 4, 5, 7, 15 })]
         [InlineData(10, new int[] { 3, 4, 5, 6, 7, 15 })]
+        [InlineData(11, new int[] { 3, 4, 5, 6, 7, 15, 25 })]
+        [InlineData(12, new int[] { 3, 4, 5, 6, 7, 15, 20, 25 })]
+        [InlineData(13, new int[] { 3, 4, 5, 6, 7, 15, 20, 25, 30 })]
+        [InlineData(14, new int[] { 3, 4, 5, 6, 7, 15, 20, 22, 25, 30 })]
+        [InlineData(15, new int[] { 3, 4, 5, 6, 7, 15, 20, 22, 25, 28, 30 })]
         public void Traverse_ReturnsExpected(int testCaseNumber, int[] expected)
         {
             var root = CaseBuilder.GetCase(testCaseNumber);

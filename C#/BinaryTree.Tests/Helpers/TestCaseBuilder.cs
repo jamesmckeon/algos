@@ -30,6 +30,16 @@ namespace Algos.BinaryTree.Tests.Helpers
                     return GetCase9();
                 case 10:
                     return GetCase10();
+                case 11:
+                    return GetCase11();
+                case 12:
+                    return GetCase12();
+                case 13:
+                    return GetCase13();
+                case 14:
+                    return GetCase14();
+                case 15:
+                    return GetCase15();
                 default:
                     throw new NotImplementedException();
             }
@@ -92,6 +102,46 @@ namespace Algos.BinaryTree.Tests.Helpers
         {
             var ret = GetCase9();
             ret.left.left.right = new TreeNode(6);
+            return ret;
+
+        }
+
+        public TreeNode GetCase11()
+        {
+            var ret = GetCase10();
+            ret.right = new TreeNode(25);
+            return ret;
+
+        }
+        public TreeNode GetCase12()
+        {
+            var ret = GetCase11();
+            ret.right.left = new TreeNode(20);
+            return ret;
+
+        }
+
+        public TreeNode GetCase13()
+        {
+            var ret = GetCase12();
+            ret.right.right = new TreeNode(30);
+            return ret;
+
+        }
+
+        public TreeNode GetCase14()
+        {
+            var ret = GetCase13();
+            ret.right.left.right = new TreeNode(22);
+            return ret;
+
+        }
+
+
+        public TreeNode GetCase15()
+        {
+            var ret = GetCase14();
+            ret.right.right.left = new TreeNode(28);
             return ret;
 
         }
