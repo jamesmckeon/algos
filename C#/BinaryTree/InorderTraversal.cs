@@ -78,7 +78,35 @@ namespace Algos.BinaryTree
 
         public int[] TraverseIterative(TreeNode node)
         {
-            throw new NotImplementedException();
+            if (node == null)
+            {
+                return null;
+            }
+            else
+            {
+                var s = new Stack<TreeNode>();
+                var vals = new List<int>();
+
+                while (node != null || s.Count > 0)
+                {
+
+                    while (node != null)
+                    {
+                        s.Push(node);
+                        node = node.left;
+                    }
+
+                    if (node == null && s.Count > 0)
+                    {
+                        node = s.Pop();
+                        vals.Add(node.val);
+                        node = node.right;
+                    }
+
+                }
+
+                return vals.ToArray();
+            }
         }
     }
 }
